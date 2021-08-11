@@ -8,7 +8,6 @@ print("Welcome to hangman! The current word is " + str(
     len(word)) + " letters long! You will have six guesses to get it right!")
 guesses = 0
 win = False
-solved_letters = ""
 correct_letters = []
 for letter in word:  # Creating a list that is the same length as the random word but filled with _ spaces to show correct guessed letter
     correct_letters.append("_")
